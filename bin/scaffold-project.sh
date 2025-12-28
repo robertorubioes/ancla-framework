@@ -23,7 +23,7 @@ mkdir -p "$PROJECT_PATH/.squads/shared/roles"
 mkdir -p "$PROJECT_PATH/.squads/squad-alpha"
 mkdir -p "$PROJECT_PATH/.squads/squad-beta"
 mkdir -p "$PROJECT_PATH/.squads/squad-omega"
-mkdir -p "$PROJECT_PATH/.roo"
+# Roo Code uses .roomodes file
 mkdir -p "$PROJECT_PATH/docs/architecture"
 mkdir -p "$PROJECT_PATH/docs/governance"
 mkdir -p "$PROJECT_PATH/bin"
@@ -199,7 +199,7 @@ echo "✅ Roles de agentes creados"
 # ROO CODE MODES
 # ============================================
 
-cat > "$PROJECT_PATH/.roo/modes.json" << 'EOF'
+cat > "$PROJECT_PATH/.roomodes" << 'EOF'
 {
   "customModes": [
     {
